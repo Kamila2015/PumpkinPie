@@ -1,4 +1,4 @@
-package com.techtorial.appiumIntro;
+package com.techtorial.appiumIntro.locators;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -46,7 +46,7 @@ public class AppiumIntro1 {
         accessibility.click();
         androidDriver.navigate().back();
 
-        AndroidElement animation = androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Animatio']"));
+        AndroidElement animation = androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Animation']"));
         animation.click();
         androidDriver.navigate().back();
 
